@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2019 The AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_twolip.mk
+    $(LOCAL_DIR)/aosp_twolip.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_twolip-user \
-    lineage_twolip-userdebug \
-    lineage_twolip-eng
+    aosp_twolip-user \
+    aosp_twolip-userdebug \
+    aosp_twolip-eng
